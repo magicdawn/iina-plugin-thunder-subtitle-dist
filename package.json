@@ -1,0 +1,13 @@
+{
+  "name": "iina-plugin-thunder-subtitle",
+  "private": true,
+  "scripts": {
+    "build": "turbo build"
+  },
+  "license": "MIT",
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,json,md}": [
+      "prettier --write"
+    ]
+  }
+}
